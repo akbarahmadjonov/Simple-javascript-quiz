@@ -9,10 +9,10 @@ console.log(
     linkingCss +
     "\n" +
     "Question: How many ways are there to link css?" +
-    "\n" +
+    "\n\t" +
     "User answer:" +
     linkingCss +
-    " " +
+    "\n\t" +
     "Correct answer: c"
 );
 
@@ -25,10 +25,10 @@ console.log(
     userName +
     "\n" +
     "Question: Is there a property called Background image in css?" +
-    "\n" +
+    "\n\t" +
     "User answer:" +
     backImg +
-    " " +
+    "\n\t" +
     "Correct answer: b = Yes There is, For instance: Background-image: url()"
 );
 
@@ -41,10 +41,10 @@ console.log(
     userName +
     "\n" +
     "Question: Is JavaScript programming language or ...?" +
-    "\n" +
+    "\n\t" +
     "User answer:" +
     programmingLgOr +
-    " " +
+    "\n\t" +
     "Correct answer: a = JavaScript is the most popular programming language (Do not forget :)"
 );
 
@@ -55,12 +55,12 @@ let isObject = prompt(
 console.log(
   "Username:" +
     userName +
-    "\n" +
+    "\n\t" +
     "Question: Is there a data type called (Object) in JavaScript?" +
     "\n" +
     "User answer:" +
     isObject +
-    " " +
+    "\n\t" +
     "Correct answer: a = JavaScript has a data type called Object, and you can see all the data types in the last question :) "
 );
 
@@ -73,9 +73,9 @@ console.log(
     userName +
     "\n" +
     "Question: How many data types are there in JavaScript?" +
-    "\n" +
+    "\n\t" +
     "User answer:" +
     dataTypes +
-    " " +
+    "\n\t" +
     "Correct answer: b = There are 8 data types in JavaScript \n 1.Boolean \n 2.String \n 3.Number \n 4.Big int \n 5.Symbol \n 6.Object \n 7.Undefined \n 5.Null"
 );
